@@ -2,6 +2,7 @@ import ClientLogo from "./ClientLogo";
 import CourseCards from "./CourseCards";
 import "./CSS/Home.css";
 import Header from "./Header";
+import LearningPath from "./LearningPath";
 import PassionSection from "./PassionSection";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <ClientLogo/>
       <PassionSection/>
       <CourseCards/>
+      <LearningPath/>
     </div>
   );
 }
