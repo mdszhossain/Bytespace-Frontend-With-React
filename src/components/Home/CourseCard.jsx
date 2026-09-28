@@ -1,10 +1,10 @@
 // import cardImg from "../../assets/card1.jpg";
 import { FaStar } from "react-icons/fa";
 import CommonButton from "./CommonButton";
-export default function CourseCard({card}) {
+export default function CourseCard({className, card}) {
   const {title, imgUrl, instructor, rating, level, lessons, duration, comments, price, priceType} = card;
   return (
-    <div className="rounded-2xl border-2 border-[#E0E2E4] p-4">
+    <div className={className}>
       {/* card image */}
       <div className="">
         <img className="rounded-xl" src={imgUrl} alt="" />

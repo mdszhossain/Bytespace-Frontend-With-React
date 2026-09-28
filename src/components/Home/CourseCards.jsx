@@ -17,7 +17,7 @@ export default function CourseCards() {
   return (
     <div className="w-8/12 mt-30 m-auto grid grid-cols-3 gap-10">
       {
-        cards.map((card, idx) => <CourseCard key={idx} card={card}/>)
+        cards.map((card, idx) => <CourseCard key={idx} className="rounded-2xl border-2 border-[#E0E2E4] p-4" card={card}/>)
       }
     </div>
   );
