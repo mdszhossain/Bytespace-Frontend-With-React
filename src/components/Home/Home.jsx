@@ -1,5 +1,6 @@
 import ClientLogo from "./ClientLogo";
 import CourseCards from "./CourseCards";
+import CourseManage from "./CourseManage";
 import "./CSS/Home.css";
 import Growth from "./Growth";
 import Header from "./Header";
@@ -16,6 +17,7 @@ export default function Home() {
       <CourseCards/>
       <LearningPath/>
       <Growth/>
+      <CourseManage/>
     </div>
   );
 }
