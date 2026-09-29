@@ -1,5 +1,6 @@
 import logo from "../../assets/logo-icon.png";
 import { CiShoppingCart } from "react-icons/ci";
+import { Link } from "react-router-dom";
 import "./CSS/Nav.css";
 export default function Nav() {
   return (
@@ -13,8 +14,8 @@ export default function Nav() {
       {/* nav second part */}
       <div>
         <ul className="text-white font-xl text-center flex gap-5">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Courses</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/courses">Courses</Link></li>
           <li><a href="#">Creators</a></li>
         </ul>
       </div>
