@@ -3,6 +3,7 @@ import Community from "./Community";
 import CourseCards from "./CourseCards";
 import CourseManage from "./CourseManage";
 import "./CSS/Home.css";
+import Footer from "./Footer";
 import Growth from "./Growth";
 import Header from "./Header";
 import LearningPath from "./LearningPath";
@@ -22,6 +23,7 @@ export default function Home() {
       <CourseManage/>
       <Potential/>
       <Community/>
+      <Footer/>
     </div>
   );
 }
