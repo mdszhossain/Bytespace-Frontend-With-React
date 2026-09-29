@@ -6,6 +6,7 @@ import Growth from "./Growth";
 import Header from "./Header";
 import LearningPath from "./LearningPath";
 import PassionSection from "./PassionSection";
+import Potential from "./Potential";
 
 export default function Home() {
   // All the home page components
@@ -18,6 +19,7 @@ export default function Home() {
       <LearningPath/>
       <Growth/>
       <CourseManage/>
+      <Potential/>
     </div>
   );
 }
