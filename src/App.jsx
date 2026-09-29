@@ -6,11 +6,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 export default function App() {
   return (
     <BrowserRouter>
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
-      </Routes> */}
-      <CourseDetails/>
+        <Route path="/courses/details" element={<CourseDetails />} />
+      </Routes>
     </BrowserRouter>
     
   );
