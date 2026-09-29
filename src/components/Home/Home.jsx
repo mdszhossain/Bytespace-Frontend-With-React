@@ -1,4 +1,5 @@
 import ClientLogo from "./ClientLogo";
+import Community from "./Community";
 import CourseCards from "./CourseCards";
 import CourseManage from "./CourseManage";
 import "./CSS/Home.css";
@@ -20,6 +21,7 @@ export default function Home() {
       <Growth/>
       <CourseManage/>
       <Potential/>
+      <Community/>
     </div>
   );
 }
