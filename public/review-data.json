@@ -3,28 +3,28 @@
     "name": "PurePearl Studio",
     "designation": "UI/UX Designer",
     "time": "a year ago",
-    "photo": "../src/assets/review-photo-1.png",
+    "photo": "./review-photo-1.png",
     "description": "The course provided me with a comprehensive understanding of digital asset creation. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!"
   },
   {
     "name": "Albert Flores",
     "designation": "UI/UX Designer",
     "time": "a year ago",
-    "photo": "../src/assets/review-photo-2.png",
+    "photo": "./review-photo-2.png",
     "description": "This course transformed my approach to digital design. The combination of theory, hands-on exercises, and real-world applications made it a truly enriching experience. Excited to implement what I've learned!"
   },
   {
     "name": "Cody Fisher",
     "designation": "UI/UX Designer",
     "time": "a year ago",
-    "photo": "../src/assets/review-photo-3.png",
+    "photo": "./review-photo-3.png",
     "description": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills. It added a unique and valuable dimension to the learning process."
   },
   {
     "name": "Brooklyn Simmons",
     "designation": "UI/UX Designer",
     "time": "a year ago",
-    "photo": "../src/assets/review-photo-4.png",
+    "photo": "./review-photo-4.png",
     "description": "The lessons on optimizing digital assets for various platforms were particularly insightful. The course adapts to the evolving digital landscape, and the engaging content kept me motivated throughout."
   }
 ]
