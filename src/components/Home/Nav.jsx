@@ -23,8 +23,8 @@ export default function Nav() {
       {/* nav third part */}
       <div>
         <ul className="text-white flex gap-5 items-center">
-          <li><a href="">Signin</a></li>
-          <li><a href="">Join Us</a></li>
+          <li><NavLink to="/signin">Signin</NavLink></li>
+          <li><NavLink to="/signup">Join Us</NavLink></li>
           <li><a href=""><CiShoppingCart className="text-xl"/></a></li>
         </ul>
       </div>
