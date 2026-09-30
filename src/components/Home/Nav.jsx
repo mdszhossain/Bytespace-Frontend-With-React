@@ -16,7 +16,7 @@ export default function Nav() {
         <ul className="text-white font-xl text-center flex gap-5">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/courses">Courses</Link></li>
-          <li><a href="#">Creators</a></li>
+          <li><Link to="/creator">Creator</Link></li>
         </ul>
       </div>
 
