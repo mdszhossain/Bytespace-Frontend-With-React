@@ -9,7 +9,7 @@ export default function Signup({ mode = "signup" }) {
     {
       id: 1,
       title: "Learn Figma from Basic",
-      imgUrl: "../src/assets/card1.jpg",
+      imgUrl: "/card1.jpg",
       instructor: "purepurl studio",
       rating: 4.5,
       level: "Beginner",
@@ -23,7 +23,7 @@ export default function Signup({ mode = "signup" }) {
     {
       id: 2,
       title: "Build Digital Asset",
-      imgUrl: "../src/assets/card2.jpg",
+      imgUrl: "/card2.jpg",
       instructor: "design academy",
       rating: 4.8,
       level: "Beginner",
