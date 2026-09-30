@@ -1,5 +1,7 @@
 import CourseCard from "../Home/CourseCard";
 import Form from "./Form";
+import { Link } from "react-router-dom";
+import logo from "../../assets/logo-icon.png";
 
 export default function Signup({ mode = "signup" }) {
   const isSignIn = mode === "signin";
@@ -37,6 +39,11 @@ export default function Signup({ mode = "signup" }) {
   return (
     <div className="h-screen bg-[#003BE2] blue-grid-background">
       <div className="w-10/12 mx-auto relative text-white top-20">
+        <Link to="/" aria-label="ByteSpace home" className="absolute -top-14 left-0">
+          <img src={logo} alt="ByteSpace" className="h-8 w-8 object-contain" />
+        </Link>
+
+        {/* Heading and Description part */}
         <h3 className="text-xl font-semibold mb-5">
           {isSignIn ? "Sign in with ease" : "Sign up and come in"}
         </h3>
@@ -46,11 +53,15 @@ export default function Signup({ mode = "signup" }) {
             : "The registration process is straightforward, uncomplicated, and efficient, allowing users to sign up quickly, easily, and at no cost"}
         </p>
       </div>
+
+      {/* Cards Part */}
       <div className="w-10/12 mx-auto flex">
         <div className="ml-50 relative bottom-35">
           <CourseCard className="w-80 p-2 rounded-xl relative z-10 top-80 left-20 bg-white shadow" card={cardInfo[0]}/>
           <CourseCard className="w-80 p-2 rounded-xl bg-white shadow" card={cardInfo[1]}/>
         </div>
+
+        {/* Rendering Form Signup and Signin */}
         <Form mode={mode} />
       </div>
     </div>

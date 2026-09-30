@@ -7,6 +7,7 @@ export default function Form({ mode = "signup" }) {
   return (
     <div className="relative left-100 top-10">
       <form className="bg-white w-130 p-10 rounded-xl">
+        {/* Heading Parts */}
         <h3 className="text-xl font-semibold">
           {isSignIn ? "Sign In" : "Create an Account"}
         </h3>
@@ -14,6 +15,7 @@ export default function Form({ mode = "signup" }) {
           {isSignIn ? "Welcome back" : "Welcome to ByteSpace"}
         </p>
 
+        {/* Input Fields */}
         <div className="mt-5">
           {!isSignIn && (
             <div className="mt-5">
@@ -30,6 +32,8 @@ export default function Form({ mode = "signup" }) {
             <input id="password" name="password" type="password" autoComplete={isSignIn ? "current-password" : "new-password"} placeholder="********" className="border-2 px-4 py-3 w-full rounded-xl" />
           </div>
         </div>
+
+        {/* Button Bottom */}
         <div className="flex justify-end mt-5">
           <CommonButton className="px-5 py-3 bg-[#D4FB20] rounded-full" btnText={isSignIn ? "Sign in" : "Join"}/>
         </div>
