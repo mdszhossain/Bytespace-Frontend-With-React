@@ -2,7 +2,7 @@ import CommonButton from "./CommonButton";
 
 export default function Potential() {
   return (
-    <div className="h-100 w-full bg-[#003BE2] relative bottom-100 flex items-center justify-center">
+    <div className="blue-grid-background h-100 w-full bg-[#003BE2] relative bottom-100 flex items-center justify-center">
       <div>
         {/* potential heading */}
         <h1 className="text-4xl font-semibold text-center text-white">

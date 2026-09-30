@@ -4,7 +4,7 @@ import CommonButton from "../Home/CommonButton";
 
 export default function CreatorsHero() {
   return (
-    <header className="bg-[#003BE2]">
+    <header className="blue-grid-background bg-[#003BE2]">
       <div className="px-50 py-10">
         <Nav/>
       </div>

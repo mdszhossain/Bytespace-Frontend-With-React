@@ -4,7 +4,7 @@ import CommonButton from "./CommonButton";
 export default function CourseCard({className, card}) {
   const {title, imgUrl, instructor, rating, level, lessons, duration, comments, price, priceType} = card;
   return (
-    <div className={className}>
+    <div className={`${className ?? ""} card-hover-zoom`}>
       {/* card image */}
       <div className="">
         <img className="rounded-xl" src={imgUrl} alt="" />

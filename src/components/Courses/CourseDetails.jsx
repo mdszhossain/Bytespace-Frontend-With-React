@@ -19,7 +19,7 @@ export default function CourseDetails() {
 
   return (
     <>
-    <div className="h-screen bg-[#003BE2] p-8 px-50">
+    <div className="blue-grid-background h-screen bg-[#003BE2] p-8 px-50">
         <Nav/>
         <div className="flex justify-between mt-30">
           <h1 className="text-white text-3xl font-bold">Build Digital Asset: A Comprehensive Guide</h1>

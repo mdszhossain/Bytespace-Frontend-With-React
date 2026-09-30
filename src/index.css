@@ -4,3 +4,31 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
+.blue-grid-background {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  background-size: 74px 74px;
+}
+
+.card-hover-zoom {
+  transition: transform 180ms ease;
+}
+
+.card-hover-zoom:hover,
+.card-hover-zoom:focus-within {
+  z-index: 1;
+  transform: scale(1.03);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-hover-zoom {
+    transition: none;
+  }
+
+  .card-hover-zoom:hover,
+  .card-hover-zoom:focus-within {
+    transform: none;
+  }
+}

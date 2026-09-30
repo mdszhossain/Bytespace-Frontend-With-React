@@ -3,7 +3,7 @@ import Nav from "../Home/Nav";
 
 export default function CoursesHeader() {
   return (
-    <header className="h-100 bg-[#003BE2]">
+    <header className="blue-grid-background h-100 bg-[#003BE2]">
       <div className="px-50 py-10">
         <Nav/>
       </div>

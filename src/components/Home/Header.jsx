@@ -4,7 +4,7 @@ import HeaderImage from "./HeaderImage";
 
 export default function Header() {
   return (
-    <header className="h-210 bg-[#003BE2]">
+    <header className="blue-grid-background h-210 bg-[#003BE2]">
       {/* navbar */}
       <div className="px-50 py-10">
         <Nav/>

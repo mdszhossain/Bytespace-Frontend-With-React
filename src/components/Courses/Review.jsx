@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 export default function Review({review}) {
   const {name, designation, photo, description, time} = review;
   return (
-    <div className="p-5 shadow rounded-xl my  -10">
+    <div className="card-hover-zoom p-5 shadow rounded-xl my-10">
       <div className="flex items-center gap-2">
         <img src={photo} alt="" />
         <div className="w-full">
