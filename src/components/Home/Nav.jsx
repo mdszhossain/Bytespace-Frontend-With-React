@@ -1,30 +1,30 @@
 import logo from "../../assets/logo-icon.png";
 import { CiShoppingCart } from "react-icons/ci";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./CSS/Nav.css";
 export default function Nav() {
   return (
     <nav className="flex items-center justify-between">
       {/* nav first part */}
-      <div className="flex items-end gap-2">
+      <Link to="/" aria-label="ByteSpace home" className="flex items-end gap-2">
         <img src={logo} alt="Bytespace-Logo" />
-        <p className="logo-text text-white text-2xl">ByteSpace</p>
-      </div>
+        <p className="logo-text text-white text-2xl relative top-1.5">ByteSpace</p>
+      </Link>
 
       {/* nav second part */}
       <div>
-        <ul className="text-white font-xl text-center flex gap-5">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/courses">Courses</Link></li>
-          <li><a href="#">Creators</a></li>
+        <ul className="nav-links text-white font-xl text-center flex gap-5">
+          <li><NavLink to="/" end>Home</NavLink></li>
+          <li><NavLink to="/courses">Courses</NavLink></li>
+          <li><NavLink to="/creator">Creator</NavLink></li>
         </ul>
       </div>
 
       {/* nav third part */}
       <div>
         <ul className="text-white flex gap-5 items-center">
-          <li><a href="">Signin</a></li>
-          <li><a href="">Join Us</a></li>
+          <li><NavLink to="/signin">Signin</NavLink></li>
+          <li><NavLink to="/signup">Join Us</NavLink></li>
           <li><a href=""><CiShoppingCart className="text-xl"/></a></li>
         </ul>
       </div>

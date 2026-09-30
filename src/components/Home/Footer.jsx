@@ -3,7 +3,7 @@ import CommonButton from "./CommonButton";
 import "./CSS/Nav.css";
 export default function Footer() {
   return (
-    <div className="h-100 border-t-2 border-[#E6E7E9] px-40 py-10"> 
+    <div className="h-100 border-t-2 border-[#E6E7E9] px-40 py-10 mt-15"> 
       <div className="flex items-center justify-between">
         <div>
           {/* logo */}

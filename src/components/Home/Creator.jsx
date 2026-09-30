@@ -1,7 +1,7 @@
 export default function Creator({creator}) {
   const {name, designation, photo, description} = creator;
   return (
-    <div className="shadow p-6 rounded-xl">
+    <div className="card-hover-zoom shadow p-6 rounded-xl">
       {/* Card image */}
       <img src={photo} alt="" />
 
