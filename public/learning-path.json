@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "icon": "../src/assets/LP-1.png",
+    "text": "Design"
+  },
+  {
+    "id": 2,
+    "icon": "../src/assets/LP-2.png",
+    "text": "Development"
+  },
+  {
+    "id": 3,
+    "icon": "../src/assets/LP-3.png",
+    "text": "IT & Services"
+  },
+  {
+    "id": 4,
+    "icon": "../src/assets/LP-4.png",
+    "text": "Business"
+  },
+  {
+    "id": 5,
+    "icon": "../src/assets/LP-5.png",
+    "text": "Marketing"
+  },
+  {
+    "id": 6,
+    "icon": "../src/assets/LP-6.png",
+    "text": "Photography"
+  }
+]
