@@ -30,7 +30,7 @@ export default function Growth() {
       {/* Growth Image Part */}
       <div className="growth-image-part">
         <CourseCard className="rounded-2xl border-2 border-[#E0E2E4] p-4 w-80 h-100" card={{id: 1, title: "Learn Figma from Basic", imgUrl: card1, instructor: "purepurl studio", rating: 4.5, level: "Beginner", lessons: "17 lessons", duration: "2 hour 16 mins", comments: "59 comments", price: 25, priceType: "lifetime", students: 26}}/>
-        <img className="relative w-500 bottom-90 left-10" src={person} alt="" />
+        <img className="relative w-500 bottom-90 left-10 ml-20" src={person} alt="" />
       </div>
     </div>
   );
