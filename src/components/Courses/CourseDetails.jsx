@@ -12,6 +12,7 @@ import Preview from "./Preview";
 import CourseInfo from "./CourseInfo";
 import About from "./About";
 import Lesson from "./Lesson";
+import ReviewSection from "./ReviewSection";
 
 export default function CourseDetails() {
   const [activeSection, setActiveSection] = useState("about");
@@ -40,6 +41,7 @@ export default function CourseDetails() {
     </div>
 
     <div className="flex items-center gap-5 pl-50 mt-10">
+      {/* About button */}
         <button
           type="button"
           onClick={() => setActiveSection("about")}
@@ -47,6 +49,8 @@ export default function CourseDetails() {
         >
           About
         </button>
+
+        {/* Lesson Button */}
         <button
           type="button"
           onClick={() => setActiveSection("lesson")}
@@ -54,12 +58,18 @@ export default function CourseDetails() {
         >
           Lesson
         </button>
-        <CommonButton
+
+        {/* Review Button */}
+        <button
+          type="button"
+          onClick={() => setActiveSection("review")}
           className="px-5 py-2 bg-[#F5F5F6] rounded-full"
-          btnText="Reviews"
-        />
+        >
+          Review
+        </button>
       </div>
-    {activeSection === "about" ? <About /> : <Lesson />}
+    {activeSection === "about" ? <About /> : activeSection === "lesson" ? <Lesson /> : <ReviewSection />}
+    
     <Footer />
     </>
   );
