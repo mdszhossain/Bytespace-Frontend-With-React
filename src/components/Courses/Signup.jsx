@@ -1,7 +1,7 @@
 import CourseCard from "../Home/CourseCard";
 import Form from "./Form";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo-icon.png";
+import logo from "/logo-icon.png";
 
 export default function Signup({ mode = "signup" }) {
   const isSignIn = mode === "signin";
