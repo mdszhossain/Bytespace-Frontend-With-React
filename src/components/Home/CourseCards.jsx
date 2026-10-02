@@ -12,7 +12,7 @@ export default function CourseCards() {
   }, []);
 
   return (
-    <div className="w-8/12 mt-10 m-auto grid grid-cols-3 gap-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-10/12 mx-auto 2xl:w-8/12">
       {cards.map((card, idx) => (
         <Link key={idx} to="/courses/details" className="block">
           <CourseCard

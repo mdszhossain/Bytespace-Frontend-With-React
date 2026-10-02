@@ -6,9 +6,9 @@ export default function PassionButtons() {
 
   // Rendering all the buttons using a simple map
   return (
-    <div className="w-6/12 mx-auto text-center my-10">
+    <div className="w-10/12 mx-auto my-5 text-center">
       {
-        btnTexts.map((btnText, idx) => <CommonButton key={idx} className="p-4 bg-[#F5F5F6] rounded-full mx-2 my-3" btnText={btnText}/>)
+        btnTexts.map((btnText, idx) => <CommonButton key={idx} className="px-2 py-1 bg-[#F5F5F6] rounded-full mx-2 my-3" btnText={btnText}/>)
       }
     </div>
   )

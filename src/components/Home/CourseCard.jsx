@@ -8,10 +8,10 @@ export default function CourseCard({className, card}) {
       {/* card image */}
       <div className="">
         <img className="rounded-xl" src={imgUrl} alt="" />
-        <div className="p-2 flex items-center justify-between">
-          <CommonButton className="p-2 rounded-full relative bottom-15 bg-[#f8f8f8] text-[#575858] text-xs opacity-80" btnText={lessons}/>
-          <CommonButton className="p-2 rounded-full relative bottom-15 bg-[#f8f8f8] text-[#575858] text-xs opacity-80" btnText={duration}/>
-          <CommonButton className="p-2 rounded-full relative bottom-15 bg-[#f8f8f8] text-[#575858] text-xs opacity-80" btnText={comments}/>
+        <div className="p-2 flex gap-2 items-center justify-between">
+          <CommonButton className="px-2 py-1 rounded-full relative bottom-15 bg-[#f8f8f8] text-[#575858] text-xs opacity-80" btnText={lessons}/>
+          <CommonButton className="px-2 py-1 rounded-full relative bottom-15 bg-[#f8f8f8] text-[#575858] text-xs opacity-80" btnText={duration}/>
+          <CommonButton className="px-2 py-1 rounded-full relative bottom-15 bg-[#f8f8f8] text-[#575858] text-xs opacity-80" btnText={comments}/>
         </div>
       </div>
       

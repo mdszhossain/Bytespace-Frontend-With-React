@@ -9,10 +9,10 @@ import Footer from "../Home/Footer";
 export default function CreatorsMain() {
   return (
     <div>
-      <div className="flex justify-between w-10/12 mx-auto mt-5">
+      <div className="flex flex-col md:flex-row md:justify-between md:my-10 items-center w-10/12 mx-auto my-5">
         <div className="flex gap-5">
           <CommonButton
-            className="p-3 border-2 rounded-full border-[#D4D6D8]"
+            className="px-3 py-2 my-5 border-2 rounded-full border-[#D4D6D8]"
             btnText={
               <div className="flex items-center gap-2">
                 <CiFilter /> Filter
@@ -20,7 +20,7 @@ export default function CreatorsMain() {
             }
           />
           <CommonButton
-            className="p-3 border-2 rounded-full border-[#D4D6D8]"
+            className="px-3 py-2 my-5 border-2 rounded-full border-[#D4D6D8]"
             btnText={
               <div className="flex items-center gap-2">
                 <FaLevelUpAlt /> Level
@@ -28,7 +28,7 @@ export default function CreatorsMain() {
             }
           />
           <CommonButton
-            className="p-3 border-2 rounded-full border-[#D4D6D8]"
+            className="px-3 py-2 my-5 border-2 rounded-full border-[#D4D6D8]"
             btnText={
               <div className="flex items-center gap-2">
                 <MdOutlineCategory /> Category
